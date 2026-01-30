@@ -12,6 +12,12 @@ The framework targets challenging unstructured field conditions characterized by
 The proposed system integrates semantic perception and geometric modeling to generate stable and safe navigation lines under different traversability scenarios.
 
 ---
+## Graphical Abstract
+
+<p align="center">
+  <img src="Graphical_Abstract.jpg" width="900">
+</p>
+
 
 ## Task Definition
 
