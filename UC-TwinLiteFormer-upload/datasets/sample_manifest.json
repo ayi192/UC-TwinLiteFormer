@@ -1,0 +1,299 @@
+{
+  "description": "Public examples only; not the full dataset or a benchmark split.",
+  "selection_seed": 42,
+  "original_counts": {
+    "train": 4040,
+    "val": 1011,
+    "qufeng": 63
+  },
+  "examples_per_image_directory": 10,
+  "obstacle_mask_values": {
+    "0": "background",
+    "128": "human",
+    "255": "rock",
+    "64": "ditch",
+    "192": "annotation boundary; no separate output class"
+  },
+  "files": [
+    {
+      "path": "images/train/gouhe233.jpg",
+      "sha256": "5d2e20a9f78eb5246af83f5539135f2de93cf02aac169929e98661a82f2ef12d"
+    },
+    {
+      "path": "drivable_area_annotations/train/gouhe233.png",
+      "sha256": "c92d3eecc746e2d4bd73e551f8c99d480cb970c0c4b8068ed727075c859536b2"
+    },
+    {
+      "path": "lane_line_annotations/train/gouhe233.png",
+      "sha256": "f232028328244858d94ab0bd4fee085fad3519ccf1daa2c3da0e7423ca2d52b9"
+    },
+    {
+      "path": "images/train/gouhe793.jpg",
+      "sha256": "8fa0d68ee946ba018fa03a2511dc520cda46c6368cbe520aea2c00cab4a91f88"
+    },
+    {
+      "path": "drivable_area_annotations/train/gouhe793.png",
+      "sha256": "2404de5c486f0ae568f6af3d808b8362675a412980ac5ee358bbcb07f8921857"
+    },
+    {
+      "path": "lane_line_annotations/train/gouhe793.png",
+      "sha256": "b7a63dc209bcf95b15bf62d5200f559b6947ce9e305c271065b307bfc37e877b"
+    },
+    {
+      "path": "images/train/ren220.jpg",
+      "sha256": "9abfdfac117dae0fb0b16d85225eea2542bb2bbcb085271d4be0b67c96993d83"
+    },
+    {
+      "path": "drivable_area_annotations/train/ren220.png",
+      "sha256": "c811ff552b6bfeafb91fef6bbc2430a2f90531a5b1afa35ee095f827ceeefba7"
+    },
+    {
+      "path": "lane_line_annotations/train/ren220.png",
+      "sha256": "4fa7e80a3a1f1eda2c7d8b1d480936775317327ff249ea6a282e34b9d709a4b6"
+    },
+    {
+      "path": "images/train/ren233.jpg",
+      "sha256": "cb5143477255ec680ff33688306dc592fd2ea306b0555397fa06898812fcd40f"
+    },
+    {
+      "path": "drivable_area_annotations/train/ren233.png",
+      "sha256": "1388818a993c6f2277b0924bb8593fd069fbb5c99fb68182177755828ee40dfb"
+    },
+    {
+      "path": "lane_line_annotations/train/ren233.png",
+      "sha256": "36f836055121485904c71d6e84821b4b0c136381c0d8731afc9721e7989de11c"
+    },
+    {
+      "path": "images/train/ren250.jpg",
+      "sha256": "9c8d15dce885133716ee16cbe712e3c6cfd0d76236e81e69f5429132adec0c62"
+    },
+    {
+      "path": "drivable_area_annotations/train/ren250.png",
+      "sha256": "adffa928b529efd6f29f7d58f78a133d89056198d633ea08533d6acb37999e5f"
+    },
+    {
+      "path": "lane_line_annotations/train/ren250.png",
+      "sha256": "f493d9ea49a96496ae113067674698549c5813309a26938c9f4f9bcbdacb7a66"
+    },
+    {
+      "path": "images/train/shitou367.jpg",
+      "sha256": "776a95e456812e35786f71c96d7cab4a4b93d6c102cb4c405d078472fa8c3d60"
+    },
+    {
+      "path": "drivable_area_annotations/train/shitou367.png",
+      "sha256": "40738ef06bb914e4ddb975485bd4b14c1942eeb081111f4067010749550dc45d"
+    },
+    {
+      "path": "lane_line_annotations/train/shitou367.png",
+      "sha256": "1dc8221ea8916600c8cff93fd71b85b56537ec6c21fded26d8775fe9e4b54a64"
+    },
+    {
+      "path": "images/train/shitou770.jpg",
+      "sha256": "3443cab4459596258bda66e3d53920e14d49697ed94f881d196f8a482b834dbd"
+    },
+    {
+      "path": "drivable_area_annotations/train/shitou770.png",
+      "sha256": "e4ed877a944b4fbf0f8d1c691f5be795bbd3914753a821cd0e0f1f5a8f3b462e"
+    },
+    {
+      "path": "lane_line_annotations/train/shitou770.png",
+      "sha256": "d07f8398d384bd73f04a61b830be98a1e3c575172280153a9b71dc1431b28c97"
+    },
+    {
+      "path": "images/train/zhenchang1140.jpg",
+      "sha256": "783e79302e36e5b8376562d38f5298c4541ecb7ab8171c5d4a8aefcef2356a10"
+    },
+    {
+      "path": "drivable_area_annotations/train/zhenchang1140.png",
+      "sha256": "9cf85400059925916be8f25badc2d5c98da33c61d2beda11e9172922ae5032d0"
+    },
+    {
+      "path": "lane_line_annotations/train/zhenchang1140.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "images/train/zhenchang1535.jpg",
+      "sha256": "d1d4db59c642b9a3d2e46caca34d8b11fa6cc5af26730e1c3d4e113fc525b76b"
+    },
+    {
+      "path": "drivable_area_annotations/train/zhenchang1535.png",
+      "sha256": "65bada44ec2bee4ed55f450e88f2e446f9afde4686ce8c8cb1b46b186db37f1c"
+    },
+    {
+      "path": "lane_line_annotations/train/zhenchang1535.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "images/train/zhenchang725.jpg",
+      "sha256": "4489b67ce2b09b4182d0c5f22e21f7949687b825ace156ddd03def86ef25b24a"
+    },
+    {
+      "path": "drivable_area_annotations/train/zhenchang725.png",
+      "sha256": "9e8b70dba9dafabd8d618a944699fed18fc4d6d15ae0d531e4b3b219fdca7e4e"
+    },
+    {
+      "path": "lane_line_annotations/train/zhenchang725.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "images/val/gouhe146.jpg",
+      "sha256": "e882ed66ca556a27ff4c1406460b780a695b9ab6c117f924baad0ae9cac0bab6"
+    },
+    {
+      "path": "drivable_area_annotations/val/gouhe146.png",
+      "sha256": "0517c305d881433699af957e5722892d783eecf193947eca2ab1b51837b7fd3d"
+    },
+    {
+      "path": "lane_line_annotations/val/gouhe146.png",
+      "sha256": "54cc2546c9769dc7ef5768e2a865c246b1cb9804d49a84498ab8c46e6d5f6ac8"
+    },
+    {
+      "path": "images/val/gouhe80.jpg",
+      "sha256": "f9d6d55731f9dfeb051799e745c697e634233345930f7a80de21902e47700c7d"
+    },
+    {
+      "path": "drivable_area_annotations/val/gouhe80.png",
+      "sha256": "b2cf90aa6c9ef7638ef2777a730af9e21f863298edff09eefec78603513adec9"
+    },
+    {
+      "path": "lane_line_annotations/val/gouhe80.png",
+      "sha256": "6da3e5dfb9871911d40a9398aaf49c6c2c62b4ebd5616ab66ee78919f22400d2"
+    },
+    {
+      "path": "images/val/ren112.jpg",
+      "sha256": "703c0fb95674fcb0bea28abebecf28c7063d546693eb64a304924e1d25e69c98"
+    },
+    {
+      "path": "drivable_area_annotations/val/ren112.png",
+      "sha256": "490f5fe083e1dc3c578995e736e066b62766d093d924dadda54fc33b3497b4e5"
+    },
+    {
+      "path": "lane_line_annotations/val/ren112.png",
+      "sha256": "9e8ae3e314866246a12895f7b9294928eca6a01b9d2ef9f14909a5f89dbdc531"
+    },
+    {
+      "path": "images/val/ren123.jpg",
+      "sha256": "8528a512df31e8902d26c3d0cef7f9cccf6dc8e2e8e2ca39e8a7eff8f8e0aa98"
+    },
+    {
+      "path": "drivable_area_annotations/val/ren123.png",
+      "sha256": "f32ef077972238d91bd5fdcc2a8b5642c53e1dbfe696a676746bcfa842e54d69"
+    },
+    {
+      "path": "lane_line_annotations/val/ren123.png",
+      "sha256": "73d32692eeb890a1ac0963c6bdd502b16593e319f1a119f7bc2d98ab5fc5209b"
+    },
+    {
+      "path": "images/val/ren162.jpg",
+      "sha256": "fa0b09e862eb631f389dca706966017e9dcafafcd9331ba39e24e079031e704c"
+    },
+    {
+      "path": "drivable_area_annotations/val/ren162.png",
+      "sha256": "61a7b54e42d1fc25b1cc6b8fb5db5ec8362afb57c070aaf2bcc623b56c6ca9fd"
+    },
+    {
+      "path": "lane_line_annotations/val/ren162.png",
+      "sha256": "9af005d109d1d6aba2e722024f16f6b8614a0955a14a8a31c1b783df2f47ec79"
+    },
+    {
+      "path": "images/val/shitou569.jpg",
+      "sha256": "5173601349c4cbc35307f4ba6e4c36fe783659711b6f5f77471a7846f0d6b6ff"
+    },
+    {
+      "path": "drivable_area_annotations/val/shitou569.png",
+      "sha256": "d92794edbc286d83bbf350861be81d00c81e8695f17366252643bec67ccd8cce"
+    },
+    {
+      "path": "lane_line_annotations/val/shitou569.png",
+      "sha256": "358cfa748737ee9a17e47632bfac7f93647529403c5299299f6a9ac8d5605c88"
+    },
+    {
+      "path": "images/val/shitou585.jpg",
+      "sha256": "bf1674b2dc233c4846c668cce564a80b3621e9c72bb50796c25dd40d480f151d"
+    },
+    {
+      "path": "drivable_area_annotations/val/shitou585.png",
+      "sha256": "707599c3057788fe240b3d8907cb416c11da8819881a169516650913ad4a90bb"
+    },
+    {
+      "path": "lane_line_annotations/val/shitou585.png",
+      "sha256": "93a29a4fa19924b714577ba1d7b37abbb53416dd40b3f2c62614f87cf5306828"
+    },
+    {
+      "path": "images/val/zhenchang1406.jpg",
+      "sha256": "714b29bfad5a27cc990f3ca74566c47f703f70793f433fb6bf924cfd79a53b86"
+    },
+    {
+      "path": "drivable_area_annotations/val/zhenchang1406.png",
+      "sha256": "04a02fb94bc386567a948957539888e9c6270cc15281a87613e81bfa19cadbcb"
+    },
+    {
+      "path": "lane_line_annotations/val/zhenchang1406.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "images/val/zhenchang3009.jpg",
+      "sha256": "5028a87f469c96f03f312775683a5d44784796e9838e478e780a2773c51ccd50"
+    },
+    {
+      "path": "drivable_area_annotations/val/zhenchang3009.png",
+      "sha256": "85fbd0e5176f7900495f9b996d8d811a9b457d751bb4faf108cf89f243e2275d"
+    },
+    {
+      "path": "lane_line_annotations/val/zhenchang3009.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "images/val/zhenchang429.jpg",
+      "sha256": "d46daf6877a568c306a3d1b547739fb45177f85099b8ff5b5633eb52c14b3c4d"
+    },
+    {
+      "path": "drivable_area_annotations/val/zhenchang429.png",
+      "sha256": "fa2970e973f93b26e442ae52e95d9f1cc82622a91cef61d9b0a7b7f276f76160"
+    },
+    {
+      "path": "lane_line_annotations/val/zhenchang429.png",
+      "sha256": "5797d59c47d743dac98206945c8bff898061b42a7c232632af37b3c1b1c9c8c1"
+    },
+    {
+      "path": "qufeng/ren25.jpg",
+      "sha256": "ae8b3f4f325736ed13f1f728474cdbdae47a1ea78b75dd9ae226657214ed89e7"
+    },
+    {
+      "path": "qufeng/ren28.jpg",
+      "sha256": "944e06a84758dff47b1629eb644b51826f6a8bef8920e744fc866952cb3165c0"
+    },
+    {
+      "path": "qufeng/ren426.jpg",
+      "sha256": "e82880ba781f63c7e07e4324c95b8e609f65e66b870cf4e8610febe4bbb8614e"
+    },
+    {
+      "path": "qufeng/ren435.jpg",
+      "sha256": "37ee0f9064c9c7a93700a42e039c3151cf921298f7f9ee9bd018c1b1c3200348"
+    },
+    {
+      "path": "qufeng/ren73.jpg",
+      "sha256": "4d99ed65f3f6109ffb559209508049b6795ca300cc9361129a786776ff23eb50"
+    },
+    {
+      "path": "qufeng/ren74.jpg",
+      "sha256": "b794de7005beab27a248420e1a49f38798205b841d7c5a3d4fe757f2c4d4caf1"
+    },
+    {
+      "path": "qufeng/ren83.jpg",
+      "sha256": "83079fe824bff9f973428f052d209ac2da666bf0e8e5e5e16ff42ff55a519096"
+    },
+    {
+      "path": "qufeng/shitou10.jpg",
+      "sha256": "4f81d33e77e3365fc38d43d46b2644a6a8edbbf17db5c4a326524c4e3d3a5663"
+    },
+    {
+      "path": "qufeng/shitou212.jpg",
+      "sha256": "57c7e9e7c4d91e07256486a8371a7af46b509a2e592a4619e32ac0e3696d2b52"
+    },
+    {
+      "path": "qufeng/shitou216.jpg",
+      "sha256": "95fff4e5bce98c52ae9a22a65878809fef2999d12ec5901405a3ce4eb1069c20"
+    }
+  ]
+}

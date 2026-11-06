@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the associated paper."
+title: "UC-TwinLiteFormer"
+type: software
+repository-code: "https://github.com/ayi192/UC-TwinLiteFormer"
+authors:
+  - family-names: Wang
+    given-names: Chao
+  - family-names: Li
+    given-names: Yi
+  - family-names: Wang
+    given-names: Shenhao
+  - family-names: Chen
+    given-names: Zihao
+  - family-names: Liang
+    given-names: Li
+  - family-names: Yang
+    given-names: Shuai
+  - family-names: Gu
+    given-names: Lichuan
+preferred-citation:
+  type: article
+  title: "A lightweight dual-task transformer framework with geometry-constrained path extraction for autonomous under-canopy navigation in maize fields"
+  authors:
+    - family-names: Wang
+      given-names: Chao
+    - family-names: Li
+      given-names: Yi
+    - family-names: Wang
+      given-names: Shenhao
+    - family-names: Chen
+      given-names: Zihao
+    - family-names: Liang
+      given-names: Li
+    - family-names: Yang
+      given-names: Shuai
+    - family-names: Gu
+      given-names: Lichuan
+  journal: "Computers and Electronics in Agriculture"
+  year: 2026
+  start: "112479"
+  doi: "10.1016/j.compag.2026.112479"
+  url: "https://www.sciencedirect.com/science/article/pii/S016816992601077X"
