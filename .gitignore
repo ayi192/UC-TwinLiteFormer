@@ -1,0 +1,30 @@
+# Python and editor files
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Training and inference outputs
+runs/
+val_vis/
+inference/output/
+outputs/
+*.pth.tar
+*.pt
+*.onnx
+*.engine
+*.log
+
+# Only the verified inference weight is distributed.
+*.pth
+!pretrained/best_model.pth
+
+# Dataset archives and local secrets
+datasets/*.zip
+.env
+.env.*
+!.env.example
